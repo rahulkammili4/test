@@ -18,7 +18,7 @@ terraform {
   }
 }
 
-resource "azurerm_resource_group" "rg123456789" {
+resource "azurerm_resource_group" "rg" {
   name     = "myFirstResourceGroup"
   location = "westeurope"
 }
